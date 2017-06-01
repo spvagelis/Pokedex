@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7497A841EE00B01002BDDD5 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = B7497A831EE00B01002BDDD5 /* pokemon.csv */; };
 		B74F13C61EDF1F66004C30BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74F13C51EDF1F66004C30BB /* AppDelegate.swift */; };
 		B74F13C81EDF1F66004C30BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74F13C71EDF1F66004C30BB /* ViewController.swift */; };
 		B74F13CB1EDF1F66004C30BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74F13C91EDF1F66004C30BB /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B7497A831EE00B01002BDDD5 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		B74F13C21EDF1F66004C30BB /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B74F13C51EDF1F66004C30BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B74F13C71EDF1F66004C30BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				B74F13C71EDF1F66004C30BB /* ViewController.swift */,
 				B74F13C91EDF1F66004C30BB /* Main.storyboard */,
 				B74F13CC1EDF1F66004C30BB /* Assets.xcassets */,
+				B7497A831EE00B01002BDDD5 /* pokemon.csv */,
 				B74F13CE1EDF1F66004C30BB /* LaunchScreen.storyboard */,
 				B74F13D11EDF1F66004C30BB /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 			files = (
 				B74F13D01EDF1F66004C30BB /* LaunchScreen.storyboard in Resources */,
 				B74F13CD1EDF1F66004C30BB /* Assets.xcassets in Resources */,
+				B7497A841EE00B01002BDDD5 /* pokemon.csv in Resources */,
 				B74F13CB1EDF1F66004C30BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +301,7 @@
 				B74F13D61EDF1F66004C30BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
